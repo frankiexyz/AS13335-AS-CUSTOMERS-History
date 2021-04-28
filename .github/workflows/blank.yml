@@ -30,14 +30,23 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: whois -h whois.radb.net as13335:as-customers
+        run: whois -h whois.radb.net as13335:as-customers > output
 
-  pull-request:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: pull-request
-      uses: repo-sync/pull-request@v2
-      with:
-        destination_branch: "master"
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit files
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
+          git add --all
+          if [-z "$(git status --porcelain)"]; then
+            echo "::set-output name=push::false"
+          else
+            git commit -m "Add changes" -a
+            echo "::set-output name=push::true"
+          fi
+        shell: bash
+      - name: Push changes
+        if: steps.commit.outputs.push == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
