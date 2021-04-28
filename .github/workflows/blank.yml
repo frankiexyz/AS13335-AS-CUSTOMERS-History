@@ -24,6 +24,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - name: Install whois
+        run: sudo apt-get install whois
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -36,5 +39,5 @@ jobs:
     - name: pull-request
       uses: repo-sync/pull-request@v2
       with:
-        destination_branch: "main"
+        destination_branch: "master"
         github_token: ${{ secrets.GITHUB_TOKEN }}
