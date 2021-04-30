@@ -58,6 +58,7 @@ members:        AS18535
 members:        AS18567
 members:        AS19225
 members:        AS19404
+members:        AS19829
 members:        AS19869
 members:        AS19871
 members:        AS20249
@@ -225,5 +226,5 @@ remarks:        https://www.cloudflare.com/abuse
 remarks:        ---------------
 mnt-by:         MNT-CLOUD14
 notify:         rir@cloudflare.com
-changed:        rir@cloudflare.com 20210427
+changed:        rir@cloudflare.com 20210430
 source:         ARIN
