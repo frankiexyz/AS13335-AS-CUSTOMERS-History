@@ -29,10 +29,12 @@ jobs:
       
       - name: Install whois
         run: sudo apt-get install whois
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: whois -h whois.radb.net as13335:as-customers > output
+        
+      - name: whois (radb)
+        run: whois -h whois.radb.net as13335:as-customers > radb-output
+        
+      - name: whois (arin)
+        run: whois -h rr.arin.net as13335:as-customers > arin-output
 
       - name: Commit files
         id: commit
