@@ -51,6 +51,7 @@ members:        AS15299
 members:        AS15361
 members:        AS15695
 members:        AS15753
+members:        AS16363
 members:        AS16501
 members:        AS16844
 members:        AS16973
@@ -100,6 +101,7 @@ members:        AS31858
 members:        AS31972
 members:        AS32391
 members:        AS32708
+members:        AS33198
 members:        AS33619
 members:        AS34451
 members:        AS34624
@@ -170,6 +172,7 @@ members:        AS131620
 members:        AS131659
 members:        AS132046
 members:        AS132369
+members:        AS132505
 members:        AS132571
 members:        AS133346
 members:        AS134145
@@ -197,6 +200,7 @@ members:        AS139830
 members:        AS139886
 members:        AS140079
 members:        AS141742
+members:        AS141757
 members:        AS197355
 members:        AS197648
 members:        AS198301
@@ -237,6 +241,7 @@ members:        AS397076
 members:        AS397602
 members:        AS398271
 members:        AS399088
+members:        AS399135
 members:        AS399566
 remarks:        ---------------
 remarks:        Cloudflare announces its ASNs via many upstream ASNs
@@ -245,6 +250,6 @@ remarks:        https://www.cloudflare.com/abuse
 remarks:        ---------------
 mnt-by:         MNT-CLOUD14
 notify:         rir@cloudflare.com
-changed:        rir@cloudflare.com 20210604
+changed:        rir@cloudflare.com 20210605
 source:         ARIN
 
