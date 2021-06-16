@@ -89,6 +89,7 @@ members:        AS24226
 members:        AS24546
 members:        AS26114
 members:        AS26324
+members:        AS26838
 members:        AS27399
 members:        AS27515
 members:        AS27681
@@ -129,6 +130,7 @@ members:        AS40875
 members:        AS40926
 members:        AS41008
 members:        AS41369
+members:        AS42587
 members:        AS42612
 members:        AS43009
 members:        AS44123
@@ -162,6 +164,7 @@ members:        AS55504
 members:        AS55532
 members:        AS55884
 members:        AS55944
+members:        AS55956
 members:        AS56289
 members:        AS57276
 members:        AS59588
@@ -257,6 +260,6 @@ remarks:        https://www.cloudflare.com/abuse
 remarks:        ---------------
 mnt-by:         MNT-CLOUD14
 notify:         rir@cloudflare.com
-changed:        rir@cloudflare.com 20210615
+changed:        rir@cloudflare.com 20210616
 source:         ARIN
 
