@@ -48,6 +48,7 @@ members:        AS14582
 members:        AS14717
 members:        AS14792
 members:        AS14907
+members:        AS15084
 members:        AS15299
 members:        AS15361
 members:        AS15600
@@ -93,6 +94,7 @@ members:        AS26114
 members:        AS26324
 members:        AS26838
 members:        AS27399
+members:        AS27489
 members:        AS27515
 members:        AS27681
 members:        AS28064
@@ -161,6 +163,7 @@ members:        AS54321
 members:        AS54574
 members:        AS54655
 members:        AS54739
+members:        AS55135
 members:        AS55251
 members:        AS55504
 members:        AS55532
@@ -218,11 +221,13 @@ members:        AS197648
 members:        AS198301
 members:        AS198589
 members:        AS200361
+members:        AS200422
 members:        AS201026
 members:        AS201031
 members:        AS201340
 members:        AS201627
 members:        AS201755
+members:        AS202326
 members:        AS202595
 members:        AS203092
 members:        AS203175
@@ -243,6 +248,7 @@ members:        AS263380
 members:        AS267309
 members:        AS267395
 members:        AS268848
+members:        AS270824
 members:        AS394303
 members:        AS394471
 members:        AS394619
@@ -262,6 +268,6 @@ remarks:        https://www.cloudflare.com/abuse
 remarks:        ---------------
 mnt-by:         MNT-CLOUD14
 notify:         rir@cloudflare.com
-changed:        rir@cloudflare.com 20210617
+changed:        rir@cloudflare.com 20210618
 source:         ARIN
 
