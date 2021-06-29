@@ -267,6 +267,7 @@ members:        AS397602
 members:        AS398271
 members:        AS399088
 members:        AS399135
+members:        AS399244
 members:        AS399566
 remarks:        ---------------
 remarks:        Cloudflare announces its ASNs via many upstream ASNs
@@ -275,5 +276,5 @@ remarks:        https://www.cloudflare.com/abuse
 remarks:        ---------------
 mnt-by:         MNT-CLOUD14
 notify:         rir@cloudflare.com
-changed:        rir@cloudflare.com 20210625
+changed:        rir@cloudflare.com 20210629
 source:         ARIN
