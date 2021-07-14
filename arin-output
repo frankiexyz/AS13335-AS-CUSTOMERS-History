@@ -86,6 +86,7 @@ members:        AS19869
 members:        AS19871
 members:        AS20249
 members:        AS20577
+members:        AS20775
 members:        AS21351
 members:        AS21556
 members:        AS21651
@@ -174,8 +175,10 @@ members:        AS53146
 members:        AS53375
 members:        AS53506
 members:        AS53590
+members:        AS53620
 members:        AS53667
 members:        AS53690
+members:        AS53834
 members:        AS53871
 members:        AS54172
 members:        AS54321
@@ -229,6 +232,7 @@ members:        AS138481
 members:        AS138571
 members:        AS139021
 members:        AS139242
+members:        AS139257
 members:        AS139456
 members:        AS139648
 members:        AS139811
@@ -290,6 +294,7 @@ members:        AS399088
 members:        AS399135
 members:        AS399244
 members:        AS399566
+members:        AS399612
 remarks:        ---------------
 remarks:        Cloudflare announces its ASNs via many upstream ASNs
 remarks:        All Cloudflare abuse reporting can be done via
@@ -297,6 +302,6 @@ remarks:        https://www.cloudflare.com/abuse
 remarks:        ---------------
 mnt-by:         MNT-CLOUD14
 notify:         rir@cloudflare.com
-changed:        rir@cloudflare.com 20210711
+changed:        rir@cloudflare.com 20210714
 source:         ARIN
 
