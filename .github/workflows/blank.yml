@@ -34,13 +34,13 @@ jobs:
         run: whois -h whois.radb.net as13335:as-customers > radb-output
         
       - name: whois format (radb)
-        run: whois -h whois.radb.net as13335:as-customers |grep members |awk '{print $2}'| tr ',' '\n' |sort -V > radb-grep-output
+        run: whois -h whois.radb.net as13335:as-customers |tr -d '\n'|egrep '(AS[0-9]+)' -o |sort -V > radb-grep-output
         
       - name: whois (arin)
         run: whois -h rr.arin.net as13335:as-customers > arin-output
         
       - name: whois format (arin)
-        run: whois -h rr.arin.net as13335:as-customers  |grep members |awk '{print $2}'| tr ',' '\n' |sort -V > arin-grep-output
+        run: whois -h rr.arin.net as13335:as-customers |tr -d '\n'|egrep '(AS[0-9]+)' -o |sort -V > arin-grep-output
 
       - name: Commit files
         id: commit
